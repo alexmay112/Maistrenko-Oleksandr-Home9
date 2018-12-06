@@ -1,0 +1,45 @@
+input {
+  border: none;
+  box-sizing: border-box;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+img {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  border: 1px dotted #000;
+}
+
+body {
+  font-family: Raleway, Arial, sans-serif;
+}
+
+section {
+  padding: 110px 0;
+}

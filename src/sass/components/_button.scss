@@ -1,0 +1,50 @@
+.section-btn {
+  margin: 60px 0;
+  padding: 17px 50px;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.slide-pagination {
+  margin-top: 60px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+  a {
+    width: 10px;
+    height: 10px;
+    margin-left: 12px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+
+    &.active {
+      background-color: #fff;
+    }
+  }
+}
+
+.slide-arrow {
+  width: 27px;
+  height: 53px;
+  display: inline-block;
+
+  &.left {
+    transform: rotate(180deg);
+    background: url('../img/right-arrow-icon.png') 50% 50% no-repeat;
+  }
+
+  &.right {
+    background: url('../img/right-arrow-icon.png') 50% 50% no-repeat;
+  }
+
+  &.bottom {
+    display: block;
+    margin: 0 auto;
+    transform: rotate(90deg);
+    background: url('../img/right-arrow-icon.png') 50% 50% no-repeat;
+    background-size: 15px;
+  }
+}

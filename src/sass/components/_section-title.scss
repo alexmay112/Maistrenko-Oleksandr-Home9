@@ -1,0 +1,31 @@
+.slide-arrow-box {
+  display: flex;
+  align-items: center;
+}
+
+
+.promo-title {
+  text-align: center;
+
+  h2 {
+    font-size: 60px;
+    font-weight: 300;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  p {
+    margin-bottom: 60px;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: $proxima-nova-font;
+  }
+}
+
+.section-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

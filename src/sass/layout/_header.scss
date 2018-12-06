@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .logo-main {
+    float: left;
+
+    h1 {
+      line-height: 65px;
+    }
+  }
+
+  .nav-main {
+    float: right;
+
+    ul {
+      display: flex;
+      align-items: center;
+    }
+
+    li {
+      float: left;
+      margin-left: 60px;
+
+      a {
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 65px;
+        text-transform: uppercase;
+        color: #fff;
+      }
+
+      .search-btn {
+        height: 23px;
+        width: 23px;
+        display: inline-block;
+        background: url("../img/zoom-icon.png") 50% 50% no-repeat;
+      }
+    }
+  }
+}

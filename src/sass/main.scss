@@ -4,8 +4,11 @@
 
 @import 'base/basic';
 
+@import 'components/button';
+@import 'components/section-title';
+
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/footer';
 
-@import 'pages/home';
+@import 'pages/promo-section';
