@@ -1,0 +1,55 @@
+.about-us-list {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+
+  li {
+    padding: 80px 20px 20px;
+    text-align: center;
+
+    &:hover a {
+      background-color: $main-accent-color;
+    }
+
+    a {
+      width: 182px;
+      height: 182px;
+      margin: 0 auto;
+      display: block;
+      border-radius: 200px;
+      background-color: #e4e4e4;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+
+      &.rocket {
+        background-image: url("../img/rocket-icon.png");
+      }
+
+      &.atom {
+        background-image: url("../img/atom-icon.png");
+      }
+
+      &.activity {
+        background-image: url("../img/activity-icon.png");
+      }
+
+      &.science {
+        background-image: url("../img/science-icon.png");
+
+      }
+    }
+
+    h3 {
+      margin: 86px 0 48px 0;
+      font-size: 30px;
+      font-weight: 400;
+      color: #000000;
+    }
+
+    p {
+      font-family: $proxima-nova-font;
+      font-size: 18px;
+      color: $discription-color;
+    }
+  }
+}
