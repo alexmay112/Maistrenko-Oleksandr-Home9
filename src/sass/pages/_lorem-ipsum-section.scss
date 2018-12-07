@@ -31,15 +31,11 @@
     }
   }
 
-  .section-box:nth-child(odd) {
+  .section-box:nth-child(2n+1) {
     background-color: $lorem-ipsum-bg-section;
 
     .container {
       justify-content: flex-end;
-    }
-
-    .side-box {
-      float: right;
     }
   }
 }

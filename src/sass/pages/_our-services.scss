@@ -1,0 +1,44 @@
+.our-services {
+  background-color: $lorem-ipsum-bg-section;
+
+  .our-services-list {
+    width: 100%;
+    padding-left: 0;
+
+    li {
+      width: calc(50% - 3px);
+      padding-left: 150px;
+      display: inline-block;
+      box-sizing: border-box;
+      background-position: 0 45px;
+      background-repeat: no-repeat;
+
+      &.portfolio {
+        background-image: url("../img/portfolio-icon.png");
+      }
+      &.design {
+        background-image: url("../img/design-icon.png");
+      }
+      &.branding {
+        background-image: url("../img/branding-icon.png");
+      }
+      &.development {
+        background-image: url("../img/development-icon.png");
+      }
+
+      h3 {
+        font-size: 60px;
+        font-weight: 400;
+        color: $section-head-color;
+
+      }
+
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 48px;
+        color: $discription-color;
+      }
+    }
+  }
+}
