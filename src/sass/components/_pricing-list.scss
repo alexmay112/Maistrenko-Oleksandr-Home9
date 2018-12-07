@@ -1,0 +1,66 @@
+.pricing {
+  background-color: $lorem-ipsum-bg-section;
+}
+
+.pricing-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-item {
+  max-width: 345px;
+  border-radius: 5px;
+  overflow: hidden;
+  color: $discription-color;
+  box-shadow: 0 0 35px rgba(227, 227, 227, 0.65);
+  background-color: #fff;
+
+  &:hover {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    transition: 0.3s;
+  }
+
+  .price {
+    font-size: 60px;
+    font-weight: 400;
+    color: $main-accent-color;
+  }
+}
+
+.item-header {
+  padding: 55px 30px 0 30px;
+  border-bottom: 2px solid $lorem-ipsum-bg-section;
+
+  p {
+    opacity: 0.45;
+    font-size: 18px;
+  }
+}
+
+.item-main {
+  padding: 65px 30px 65px;
+}
+
+.item-main p {
+  font-size: 18px;
+  line-height: 48px;
+}
+
+.item-footer {
+  padding: 30px 35px 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: $main-accent-color;
+
+  span {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+}
