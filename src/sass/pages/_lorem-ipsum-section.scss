@@ -1,0 +1,45 @@
+.lorem-ipsum-section {
+  padding: 0;
+
+  .section-box {
+    .container {
+      min-height: 500px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .side-box {
+      width: 50%;
+
+      .section-header {
+        text-align: left;
+
+        h2 {
+          margin: 0 0 70px 0;
+
+          &::after {
+            content: none;
+          }
+        }
+
+        p {
+          margin-bottom: 65px;
+          line-height: 36px;
+        }
+      }
+    }
+  }
+
+  .section-box:nth-child(odd) {
+    background-color: $lorem-ipsum-bg-section;
+
+    .container {
+      justify-content: flex-end;
+    }
+
+    .side-box {
+      float: right;
+    }
+  }
+}
