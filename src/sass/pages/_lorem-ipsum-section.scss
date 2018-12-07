@@ -8,26 +8,25 @@
       justify-content: flex-start;
       align-items: center;
     }
+  }
 
-    .side-box {
-      width: 50%;
+  .side-box {
+    width: 50%;
+  }
 
-      .section-header {
-        text-align: left;
+  .section-header {
+    text-align: left;
 
-        h2 {
-          margin: 0 0 70px 0;
+    h2 {
+      margin: 0 0 70px 0;
 
-          &::after {
-            content: none;
-          }
-        }
-
-        p {
-          margin-bottom: 65px;
-          line-height: 36px;
-        }
+      &::after {
+        content: none;
       }
+    }
+
+    p {
+      line-height: 36px;
     }
   }
 

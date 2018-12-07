@@ -1,0 +1,27 @@
+.dolor {
+  background: url("../img/map.png") 100% center no-repeat;
+
+  .container {
+    padding: 110px 0;
+  }
+
+  .side-box {
+    width: 50%;
+  }
+
+  .section-header {
+    text-align: left;
+
+    h2 {
+      margin: 0 0 70px 0;
+
+      &::after {
+        content: none;
+      }
+    }
+
+    p {
+      line-height: 36px;
+    }
+  }
+}

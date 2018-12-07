@@ -1,0 +1,12 @@
+.try-our-section {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  background: url("../img/try-section-bg.png") 50% 50% no-repeat;
+  background-size: cover;
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
