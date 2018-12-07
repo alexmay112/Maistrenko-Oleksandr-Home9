@@ -1,0 +1,27 @@
+.founder-section {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("../img/founder-section-bg.png") 50% 50% no-repeat;
+  background-size: cover;
+
+  .container {
+    width: 100%;
+  }
+
+  .promo-title {
+    h2 {
+      font-size: 30px;
+      font-weight: 300;
+
+      span {
+        color: $main-accent-color;
+      }
+    }
+
+    p {
+      opacity: 0.3;
+    }
+  }
+}
