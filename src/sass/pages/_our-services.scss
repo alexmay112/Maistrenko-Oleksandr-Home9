@@ -16,12 +16,15 @@
       &.portfolio {
         background-image: url("../img/portfolio-icon.png");
       }
+
       &.design {
         background-image: url("../img/design-icon.png");
       }
+
       &.branding {
         background-image: url("../img/branding-icon.png");
       }
+
       &.development {
         background-image: url("../img/development-icon.png");
       }
@@ -30,7 +33,6 @@
         font-size: 60px;
         font-weight: 400;
         color: $section-head-color;
-
       }
 
       p {

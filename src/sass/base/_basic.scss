@@ -33,15 +33,14 @@ li {
 .container {
   max-width: 1500px;
   margin: 0 auto;
-  //border: 1px dotted #000;
 }
 
 body {
   font-family: 'Raleway', 'Arial', sans-serif;
-  color: #fff;
+  color: $default-color-font;
 }
 
 section {
   min-height: 500px;
-  padding: 50px 0;
+  padding: 100px 0;
 }

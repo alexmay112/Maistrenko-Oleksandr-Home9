@@ -1,29 +1,21 @@
-header {
+.header-main {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
 .logo-main {
-  float: left;
-
   h1 {
     line-height: 65px;
   }
 }
 
-
-.nav-main {
-  float: right;
-
-  ul {
-    display: flex;
-    align-items: center;
-  }
+.nav-main ul {
+  display: flex;
+  align-items: center;
 }
 
 .nav-item {
-  float: left;
   margin-left: 60px;
 
   a {
