@@ -1,0 +1,36 @@
+footer {
+
+  .container {
+    min-height: 760px;
+    padding-top: 80px;
+    background: url("../img/letter-a-bg.png") 50% 0 no-repeat;
+    //background-size: cover;
+  }
+
+  .logo-main {
+    a {
+      display: flex;
+      align-items: center;
+      font-family: $proxima-nova-font;
+      font-size: 18px;
+      font-weight: 400;
+      color: $discription-color;
+    }
+
+    p {
+      margin-left: 20px;
+      display: inline-block;
+    }
+  }
+
+  .nav-item a {
+    font-weight: 400;
+    font-size: 18px;
+    color: $discription-color;
+
+    &:hover {
+      font-weight: 700;
+      color: #000;
+    }
+  }
+}

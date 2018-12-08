@@ -1,8 +1,11 @@
 .dolor {
+  min-height: 760px;
+  display: flex;
+  align-items: center;
   background: url("../img/map.png") 100% center no-repeat;
 
   .container {
-    padding: 110px 0;
+    //padding: 110px 0;
   }
 
   .side-box {
