@@ -1,0 +1,37 @@
+.our-team {
+  background-color: #17daa3;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+
+  .team-list-item {
+    display: flex;
+    position: relative;
+
+    .name {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    &:hover .name {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 36px;
+      font-weight: 400;
+      color: #fff;
+    }
+  }
+
+  .photo-container img {
+    width: 100%;
+  }
+}
